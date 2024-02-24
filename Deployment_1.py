@@ -10,8 +10,8 @@ import streamlit as st
 
 
 # Load saved model
-loaded_model = pickle.load(open("C:/Users/kcmalema/Downloads/trained_model.sav", 'rb'))
-loaded_vectorizer  = joblib.load("C:/Users/kcmalema/Downloads/vectorizer.pkl")
+loaded_model = pickle.load(open("trained_model.sav", 'rb'))
+loaded_vectorizer  = joblib.load("vectorizer.pkl")
 
 
 def topic_classifier(input_text):
